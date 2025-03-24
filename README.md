@@ -5,9 +5,6 @@ DuoFoodOrdering is an innovative project designed to redefine the food delivery 
 ## Key Features
 
 - **Multi-Restaurant Ordering**: Allows users to place orders from multiple restaurants in one seamless transaction, accommodating diverse preferences and group dining scenarios.
-- **AI-Driven Recommendation Engine**: Suggests complementary dishes and restaurants based on user preferences, past orders, and trending combinations.
-- **Dynamic Pricing Algorithms**: Optimizes pricing across multiple vendors, factoring in distance, preparation time, and demand fluctuations to ensure fair and competitive costs.
-- **Geospatial Analytics**: Leverages advanced geospatial algorithms to optimize delivery routes, reduce delivery times, and maintain food quality during transit.
 - **Real-Time Synchronization**: Ensures real-time updates on food preparation status, delivery progress, and communication between restaurants, delivery partners, and customers.
 - **Unified Payment System**: Streamlines payment processing across multiple vendors, providing a hassle-free checkout experience for users.
 
@@ -23,12 +20,10 @@ DuoFoodOrdering is an innovative project designed to redefine the food delivery 
 - **For Delivery Platforms**: A key differentiator in a competitive market, fostering customer loyalty and driving platform growth.
 
 ## Technologies Used
-- **Backend**: Node.js, Python (Flask/FastAPI), MongoDB/PostgreSQL
+- **Backend**: Node.js
 - **Frontend**: React.js, Tailwind CSS
-- **AI/ML**: TensorFlow, Scikit-learn for recommendation and pricing models
 - **Geospatial Tools**: Google Maps API, OpenStreetMap, GeoJSON
 - **Real-Time Communication**: WebSocket, Firebase Realtime Database
-- **Cloud Infrastructure**: AWS/GCP for scalable deployment and storage
 
 ## Project Structure
 ```
@@ -63,7 +58,6 @@ DuoFoodOrdering/
 4. Run the application:
    ```bash
    npm start      # Start the frontend
-   python app.py  # Start the backend server
    ```
 
 ## Future Enhancements
